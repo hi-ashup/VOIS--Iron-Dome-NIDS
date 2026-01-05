@@ -37,7 +37,7 @@ Traditional firewalls rely on static rules. Iron Dome uses **Machine Learning** 
 ## 📊 Dataset
 This project is compatible with the **CIC-IDS2017** dataset.
 To use the "Real Data" feature:
-1.  Download `Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv` from [Kaggle](https://www.kaggle.com/datasets/cicdataset/cicids2017).
+1.  Download `Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv` from [Kaggle]([https://www.kaggle.com/datasets/cicdataset/cicids2017](https://www.kaggle.com/datasets/chethuhn/network-intrusion-dataset?select=Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv)).
 2.  Select "Real Dataset" in the Configuration panel and load the file.
 
 ## 📸 Screenshots
