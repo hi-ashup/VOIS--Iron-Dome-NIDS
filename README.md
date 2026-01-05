@@ -1,4 +1,4 @@
-<img width="1916" height="1020" alt="image" src="https://github.com/user-attachments/assets/4ba83094-c3ad-4b5f-a523-63c3282b3530" /># 🛡️ Iron Dome: AI-Powered NIDS
+# 🛡️ Iron Dome: AI-Powered NIDS
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![License](https://img.shields.io/badge/License-GPL_v2-blue)
@@ -48,7 +48,6 @@ To use the "Real Data" feature:
 ## 📸 Screenshot: Initial User Interface Dashboard (GUI).
 *(What it shows: The UI layout, the "SYSTEM STATUS: WAITING", and that the metrics are empty.)*
 <img width="1920" height="1376" alt="NIDS- Iron Dome Prototype GUI" src="https://github.com/user-attachments/assets/a3e06dfb-da88-4e38-80d3-e553c4ed6f2f" />
-
 
 ## 📜 License
 This project is open-source and licensed under the **GNU General Public License v2.0 (GPLv2)**. You are free to use, modify, and distribute this software in compliance with the license terms.
