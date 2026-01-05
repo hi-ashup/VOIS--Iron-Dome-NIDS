@@ -9,6 +9,3 @@ env/
 # Datasets (Too large for GitHub)
 *.csv
 *.pcap
-
-# Local Reports
-*.pdf
