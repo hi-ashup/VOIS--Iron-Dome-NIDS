@@ -1,7 +1,7 @@
 # 🛡️ Iron Dome: AI-Powered NIDS
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
+![License](https://img.shields.io/badge/License-GPL_v2-blue)
 ![Status](https://img.shields.io/badge/Status-Stable-red)
 
 **A Next-Gen Network Intrusion Detection System utilizing Random Forest Classifiers to detect DDoS and Port Scan attacks in real-time.**
@@ -44,4 +44,4 @@ To use the "Real Data" feature:
 *(Add your screenshots here)*
 
 ## 📜 License
-This project is open-source under the MIT License.
+This project is open-source and licensed under the **GNU General Public License v2.0 (GPLv2)**. You are free to use, modify, and distribute this software in compliance with the license terms.
