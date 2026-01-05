@@ -1,0 +1,14 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+env/
+
+# Datasets (Too large for GitHub)
+*.csv
+*.pcap
+
+# Local Reports
+*.pdf
