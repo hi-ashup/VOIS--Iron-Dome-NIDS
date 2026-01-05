@@ -101,7 +101,16 @@ class NIDSEngine:
 
     def predict_single(self, features):
         if not self.model: return -1
-        # features: [Duration, Packets, Length, Active]
-        # We need to prepend 'Destination Port' (mocking port 80)
-        input_vector = np.array([[80, *features]])
-        return self.model.predict(input_vector)[0]
+        
+        # Define the exact column names used during training
+        cols = ['Destination Port', 'Flow Duration', 'Total Fwd Packets', 
+                'Packet Length Mean', 'Active Mean']
+        
+        # Create a proper DataFrame with the input data
+        # features list order: [Duration, Packets, Length, Active]
+        input_data = [80] + features # Prepend port 80
+        
+        # Convert to DataFrame to match training format (fixes the UserWarning)
+        input_df = pd.DataFrame([input_data], columns=cols)
+        
+        return self.model.predict(input_df)[0]
